@@ -8,7 +8,7 @@ http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' });
 
   if (url === '/') {
-    res.write('<h1>Welcome to the Home Page!</h1>');
+    res.write('<h1>Welcome to the Home Page of Khushwant</h1>');
   } else if (url === '/hello') {
     res.write('<h1>Hello World!</h1>');
   } else if (url === '/frrr') {
